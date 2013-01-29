@@ -1,0 +1,144 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+
+a:link,a:visited {
+	text-decoration: none; /*超链接无下划线*/
+}
+
+a:hover {
+	text-decoration: underline; /*鼠标放上去有下划线*/
+}
+
+ul,li {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+}
+
+.tab {
+	border: #b5d6e6 1px solid;
+	border-radius: 5px;
+	margin: 0 5px 0 3px;
+	overflow: hidden;
+	border-bottom: none;
+}
+
+.nav1 {
+	height: 30px;
+	background: url(/resources/images/tab_05.gif);
+	line-height: 30px;
+	border-radius: 5px;
+}
+
+.nav1 span {
+	font-weight: bold;
+}
+
+.leftNavImage {
+	float: left;
+	margin: 7px 2px 0 5px;
+}
+
+.rightNavImage {
+	float: right;
+	margin-right: 15px;
+}
+
+.nav2 {
+	height: 60px;
+	line-height: 30px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.nav2 li {
+	display: inline;
+}
+
+.nav2 span {
+	margin-right: 5px;
+	font-weight: bold;
+	color: #262626;
+}
+
+.nav2 .t1 {
+	margin-right: 10px;
+}
+
+.nav2 input {
+	height: 15px;
+}
+
+.nav2 a {
+	display: inline-block;
+	width: 40px;
+	height: 22px;
+	background: #0FA5DD;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 5px;
+	cursor: pointer;
+	line-height: 22px;
+	margin-left: 140px;
+	text-decoration: none;
+}
+
+.nav2 a:hover {
+	background: #1378A8;
+}
+
+.table {
+	margin: 5px 5px 0 5px;
+	border-radius: 5px;
+	overflow: hidden;
+	width: 98%;
+}
+
+.table tr {
+	height: 19px;
+}
+
+.tr1 {
+	background: url(/resources/images/bg.gif) repeat;
+	text-align: center;
+}
+
+.tr2 {
+	background: #FFF;
+	text-align: center;
+}
+
+.tab_btm {
+	height: 30px;
+	background: url(/resources/images/tab_19.gif);
+	margin-top: 5px;
+}
+
+.word {
+	line-height: 30px;
+	padding-left: 10px;
+	float: left;
+}
+
+.btn {
+	float: right;
+	line-height: 30px;
+}
+
+.btn span {
+	cursor: pointer;
+	padding-top: 3px;
+}
+
+.go {
+	margin-right: 35px;
+	margin-left: 10px
+}
+
+.btn input {
+	width: 20px;
+	margin: 0 5px 0 10px;
+}
